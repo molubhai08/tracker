@@ -37,9 +37,10 @@ llm = ChatGroq(
 # Replace with your actual MySQL credentials
 MYSQL_HOST = "localhost"
 MYSQL_USER = "root"
-MYSQL_PASSWORD = "naruto"
+MYSQL_PASSWORD = "yourpassword"
 MYSQL_DB = "ai_agent"
 MYSQL_PORT = 3306
+
 
 # Connect to MySQL using mysql-connector
 db = SQLDatabase.from_uri(
@@ -364,6 +365,7 @@ if __name__ == "__main__":
 
 # ngrok config add-authtoken 32Gt4tt4IWJNnlYyZYuA7OBOraB_7YPuczj5txKFziwhriVfR
 #ngrok http 5000
+
 
 
 
