@@ -72,7 +72,7 @@ The model explains results simply and clearly.
 ## **1️⃣ Clone the repo**
 
 ```bash
-git clone <[your-repo-url](https://github.com/molubhai08/tracker.git)>
+git clone https://github.com/molubhai08/tracker.git)
 cd tracker
 ```
 
